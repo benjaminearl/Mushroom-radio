@@ -27,6 +27,14 @@ p {
   font-size: 32px;
 }
 
+a {
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+
 hr {
   width: 100%;
   border: 1px #000 solid;
