@@ -5,32 +5,41 @@
 }
 
 body{
-    background:rgb(216, 213, 171);
-    font-family: "Arial Narrow", Arial, sans-serif;
+    background-color: rgb(155, 201, 141);
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     margin: 0;
     padding: 0;
-    color: rgb(253, 30, 30);
+    color: #000;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 100;
 }
 
 h2 {
-  color: rgb(253, 30, 30);
+  color: #000;
   font-weight: 100
+}
+
+p {
+  font-size: 32px;
 }
 
 hr {
   width: 100%;
-  border: 1px rgb(253, 30, 30) solid;
+  border: 1px #000 solid;
 }
 
 .radioco-playButton-playing:before{
-    font-family: 'FontAwesome', sans-serif;
+  font-family: 'FontAwesome', sans-serif;
   content: "\f04b";
   margin-left: 20px;
 }
 
 .radioco-playButton-paused:before{
-    font-family: 'FontAwesome', sans-serif;
+  font-family: 'FontAwesome', sans-serif;
   content:"\f04c";
   margin-left: 20px;
 }
@@ -40,10 +49,11 @@ hr {
   z-index: 2;
   font-size:50px;
   width: 100%;
+  text-align: center;
 }
 
 .radioco-playButton:active{
-  color:#ff0000;
+  color:#000;
 }
 
 .radioco-playButton-playing{
@@ -57,10 +67,30 @@ hr {
 }
 
 .content {
-  margin-left: 20px;
-  width: 45%;
-  margin-bottom: 20px;
-  z-index: 1;
+  padding: 0 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+.info {
+  border-bottom: 2px #000 solid;
+}
+
+.broadcast-status {
+  border-bottom: 2px #000 solid;
+  background-color: rgb(155, 201, 141)
+}
+
+.broadcast-status p {
+  font-size: 20px;
+  margin: 0px;
+  padding: 5px 0;
+}
+
+.broadcast-content {
+  text-align: center;
 }
 
 .background-mushroom img{
@@ -69,4 +99,28 @@ hr {
   width: 50%;
   top: 30;
   left: 20
+}
+
+.image-container {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.image-container img {
+  width: 30%;
+  display: inline-block;
+} 
+
+.details {
+  font-size: 26px;
+}
+
+.details span {
+  padding-left: 50px;
+}
+
+table {
+  width: 70%;
 }
