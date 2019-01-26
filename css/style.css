@@ -68,6 +68,14 @@ html, body {
   /*background: green;  */
 }
 
+.column-three { 
+  display: inline-block; 
+/*  text-align: center;*/
+  width: 30%; 
+  text-shadow: 0px 0px 7px red;
+  /*background: blue;  */
+}
+
 .column-four { 
   display: inline-block; 
 /*  text-align: center;*/
@@ -91,26 +99,21 @@ html, body {
 .radioco-playButton-playing:before{
   font-family: 'FontAwesome', sans-serif;
   content: "\f04b";
-  margin-left: 20px;
 }
 
 .radioco-playButton-paused:before{
   font-family: 'FontAwesome', sans-serif;
   content:"\f04c";
-  margin-left: 20px;
 }
 
 .radioco-playButton{
   color: red;
   z-index: 2;
   font-size:50px;
-  width: 100%;
-  text-align: center;
   display: inline-block; 
-/*  text-align: center;*/
-  width: 30%; 
   text-shadow: 0px 0px 7px red;
-  /*background: blue;  */
+  padding-top: 3vw;
+  padding-right: 3vw;
 }
 }
 
