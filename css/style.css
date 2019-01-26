@@ -1,91 +1,43 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-@font-face {
-  font-family: "Steinbech-regular";
-  src: url("../font/Steinbeck-Demo-Regular.otf");
-  font-style: normal;
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
 }
 
-@font-face {
-  font-family: "Steinbech-italic";
-  src: url("../font/Steinbeck-Italic.otf");
-  font-style: italic;
+body{
+    background-color: rgb(155, 201, 141);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: #000;
 }
 
-@font-face {
-  font-family: "SplendidScript";
-  src: url("../font/SplendidScript.otf");
+h1 {
+  font-size: 50px;
+  font-weight: 100;
 }
 
+h2 {
+  color: #000;
+  font-weight: 100
+}
 
+p {
+  font-size: 32px;
+}
 
-html, body {
-  height:100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
+a {
+  color: #000;
+}
 
-/*  color: #FFF; 
-  background: #000;*/
-/*  background-image: url("../img/metal_texture.jpg");  */
-  font-family: 'Steinbech-regular';
-  font-size: 2.2vw;
+a:hover {
   color: red;
-  line-height: 2.3vw;
-  letter-spacing: -0.1px;
-  text-shadow: 0px 0px 7px rgba(0,0,0,0.13);
-  font-weight: normal;
-  font-style: normal;   
-  font-variant-ligatures: common-ligatures;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased; 
-  
 }
 
-#contentContainer {
-/*  width: 100%; */
-  margin: 0 auto;
-  margin: 3vw 3vw 7vw 3vw;
-  border-bottom: 0.5px white solid;
-  height:250px;  
-
-}
-
-.column-one { 
-  float: left; 
-  width: 30%;
-/*  text-align: center;*/
-  /*background: red;  */
-}
-
-.column-two { 
-  float: left; 
-  width: 30%; 
-  margin: 0 1% 0 1%;
-/*  text-align: center;*/
-  /*background: green;  */
-}
-
-.column-four { 
-  display: inline-block; 
-/*  text-align: center;*/
-  width: 30%; 
-  text-shadow: 0px 0px 7px red;
-  /*background: blue;  */
-}
-
-#audioArchive {
-  margin: 3vw 3vw 7vw 3vw;
-}
-
-.parentheses {
-  font-family: SplendidScript;
-  font-kerning: -0.5px;
-  word-spacing: 0.9px;
-  letter-spacing: 0.7px;
-
+hr {
+  width: 100%;
+  border: 1px #000 solid;
 }
 
 .radioco-playButton-playing:before{
@@ -101,17 +53,11 @@ html, body {
 }
 
 .radioco-playButton{
-  color: red;
+  color: rgb(0, 0, 0);
   z-index: 2;
   font-size:50px;
   width: 100%;
   text-align: center;
-  display: inline-block; 
-/*  text-align: center;*/
-  width: 30%; 
-  text-shadow: 0px 0px 7px red;
-  /*background: blue;  */
-}
 }
 
 .radioco-playButton:active{
@@ -128,49 +74,61 @@ html, body {
   font-size:5rem;
 }
 
-em {
-    font-family: 'Steinbech-italic';
-    font-style: italic;
-
+.content {
+  padding: 0 30px;
 }
 
-img {
-  width: 140px;
+.title {
+  text-align: center;
 }
 
-/* unvisited link */
-a:link {
-  color: white;
-  text-decoration: none;
-
+.info {
+  border-bottom: 2px #000 solid;
 }
 
-/* visited link */
-a:visited {
-  color: white;
-    text-decoration: none;
+.broadcast-status {
+  border-bottom: 2px #000 solid;
+  background-color: rgb(155, 201, 141)
 }
 
-/* mouse over link */
-a:hover {
-  color: red;
-    text-decoration: none;
+.broadcast-status p {
+  font-size: 20px;
+  margin: 0px;
+  padding: 5px 0;
 }
 
+.broadcast-content {
+  text-align: center;
+}
 
+.background-mushroom img{
+  z-index: -1;
+  position: fixed;
+  width: 50%;
+  top: 30;
+  left: 20
+}
 
+.image-container {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
+.image-container img {
+  width: 30%;
+  display: inline-block;
+} 
 
+.details {
+  font-size: 26px;
+}
 
+.details span {
+  padding-left: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+table {
+  width: 70%;
+}
