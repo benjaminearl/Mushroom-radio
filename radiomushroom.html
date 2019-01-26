@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/style.css" rel="stylesheet">
+     	<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+	</head>
+
+	<body>
+
+		<!--INFO-->
+<div id="contentContainer">
+		
+		<div class="column-one">
+			
+			Mushroom Radio is a mobile radio station created in an effort to amplify the current extra-curricular activities from students of the Royal Academy of Art, The Hague.<br>
+
+	   	</div>		
+	
+		<div class="column-two">
+	   		<em> 26 <span class="parentheses">)  </span> 01 <span class="parentheses">)  </span>2019<br> </em>
+			The KABK Open Day<br> 
+	   	</div>	
+		<!-- RADIO PLAYER -->
+		<div class="radioplayer content column-three"
+			    data-src="https://s2.radio.co/sc38253aea/listen"
+			    data-autoplay="false"
+			    data-playbutton="true"
+			    data-volumeslider="false"
+			    data-elapsedtime="false"
+			    data-nowplaying="false"
+			    data-showplayer="false"
+			    data-volume="50">
+			</div>
+
+		<div class="column-four">
+			<a href="https://www.instagram.com/"><em>Instagram</em></a><br>
+			<a href="https://www.facebook.com/mushroommushroommushroom/">
+			<em>Facebook</em></a><br> 
+			<a href="mailto:radiomushroom@gmail.com"><em>E-mail us</em></a>
+	   </div>
+
+
+
+	<!-- audio archive-->
+
+<!-- 	   <div id="audioArchive">
+		   <br><br><br><br><br><br>
+	   		<em>Archive:</em>
+ -->
+
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://public.radio.co/playerapi/jquery.radiocoplayer.min.js"></script>
+<script>
+//initialise the plugin with the element
+$('.radioplayer').radiocoPlayer();
+</script>
+
+</html>
