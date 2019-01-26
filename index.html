@@ -1,43 +1,60 @@
-<!doctype html>
-
+<!DOCTYPE html>
+<html>
   <head>
-    <title>Mushroom Radio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
   </head>
+
   <body>
-    <div class="title content">
-      <h1>Mushroom Radio</h1>
-    </div>
-    <div class="info content">
-        <p>Mushroom is a mobile radio station created in an effort to amplify the current extra-curricular activities from students of the Royal Academy of Art, The Hague.</p>
-    </div>
-    <!-- <div class="broadcast-status content">
-      <p>on-air – currently broadcasting:</p>
-    </div> -->
-    <div class="radioplayer content"
-    data-src="https://s2.radio.co/sc38253aea/listen"
-    data-autoplay="false"
-    data-playbutton="true"
-    data-volumeslider="false"
-    data-elapsedtime="false"
-    data-nowplaying="false"
-    data-showplayer="false"
-    data-volume="50">
-    <div class="broadcast-content content">
-    <p>OFF-AIR, BACK SOON</p>
-    <!-- <div class="details">
-      <p>14:30 – 15:30<span>17/12/2018</span><span>PB.203</span></p>
-  </div> -->
-  </div>
-  </div>
-    <hr>
-  </body>
+
+    <!--INFO-->
+<div id="contentContainer">
+    
+    <div class="column-one">
+      
+      Mushroom Radio is a mobile radio station created in an effort to amplify the current extra-curricular activities from students of the Royal Academy of Art, The Hague.<br>
+
+      </div>    
+  
+    <div class="column-two">
+        <em> 26 <span class="parentheses">)  </span> 01 <span class="parentheses">)  </span>2019<br> </em>
+      The KABK Open Day<br> 
+      </div>  
+    <!-- RADIO PLAYER -->
+    <div class="radioplayer content column-three"
+          data-src="https://s2.radio.co/sc38253aea/listen"
+          data-autoplay="false"
+          data-playbutton="true"
+          data-volumeslider="false"
+          data-elapsedtime="false"
+          data-nowplaying="false"
+          data-showplayer="false"
+          data-volume="50">
+      </div>
+
+    <div class="column-four">
+      <a href="https://www.instagram.com/"><em>Instagram</em></a><br>
+      <a href="https://www.facebook.com/mushroommushroommushroom/">
+      <em>Facebook</em></a><br> 
+      <a href="mailto:radiomushroom@gmail.com"><em>E-mail us</em></a>
+     </div>
+
+
+
+  <!-- audio archive-->
+
+<!--     <div id="audioArchive">
+       <br><br><br><br><br><br>
+        <em>Archive:</em>
+ -->
+
+</div>
+</body>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://public.radio.co/playerapi/jquery.radiocoplayer.min.js"></script>
 <script>
 //initialise the plugin with the element
 $('.radioplayer').radiocoPlayer();
 </script>
+
 </html>
