@@ -34,7 +34,7 @@ html, body {
   color: red;
   line-height: 2.3vw;
   letter-spacing: -0.1px;
-  text-shadow: 0px 0px 7px rgba(0,0,0,0.13);
+/*  text-shadow: 0px 0px 7px rgba(0,0,0,0.13);*/
   font-weight: normal;
   font-style: normal;   
   font-variant-ligatures: common-ligatures;
@@ -56,6 +56,7 @@ html, body {
 .column-one { 
   float: left; 
   width: 30%;
+    margin: 0 1% 0 1%;
 /*  text-align: center;*/
   /*background: red;  */
 }
@@ -72,7 +73,8 @@ html, body {
   display: inline-block; 
 /*  text-align: center;*/
   width: 30%; 
-  text-shadow: 0px 0px 7px red;
+
+/*  text-shadow: 0px 0px 7px red;*/
   /*background: blue;  */
 }
 
@@ -80,7 +82,7 @@ html, body {
   display: inline-block; 
 /*  text-align: center;*/
   width: 30%; 
-  text-shadow: 0px 0px 7px red;
+/*  text-shadow: 0px 0px 7px red;*/
   /*background: blue;  */
 }
 
@@ -111,7 +113,7 @@ html, body {
   z-index: 2;
   font-size:50px;
   display: inline-block; 
-  text-shadow: 0px 0px 7px red;
+/*  text-shadow: 0px 0px 7px red;*/
   padding-top: 3vw;
   padding-right: 3vw;
 }
@@ -123,12 +125,13 @@ html, body {
 
 .radioco-playButton-playing{
   font-family: "controls";
-  font-size:5rem;
+  font-size:2rem;
 }
 
 .radioco-playButton-paused{
   font-family: "controls";
-  font-size:5rem;
+  font-size:2rem;
+  background-image: url("../img/nelly.JPG");
 }
 
 em {
@@ -143,14 +146,14 @@ img {
 
 /* unvisited link */
 a:link {
-  color: white;
+  color: grey;
   text-decoration: none;
 
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: grey;
     text-decoration: none;
 }
 
