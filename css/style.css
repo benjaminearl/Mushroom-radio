@@ -18,6 +18,7 @@
   src: url("../font/SabonLTStd-BoldItalic.otf");
   font-style: italic;
   font-weight: bold;
+
 }
 
 @font-face {
@@ -38,7 +39,7 @@
   font-family: "Chiswick";
   src: url("../font/ChiswickDeck-RegularItalic.ttf");
   font-style: italic;
-  font-weight: normal;
+
 }
 
 @font-face {
