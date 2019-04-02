@@ -42,7 +42,7 @@
 }
 
 @font-face {
-  font-family: "Aktiv";
+  font-family: "AktivRegular";
   src: url("../font/AktivGrotesk-Regular.otf");
   font-style: normal;
 }
@@ -54,14 +54,26 @@
 }
 
 @font-face {
+  font-family: "Dotum";
+  src: url("../font/dotum.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("../font/AktivGrotesk_Corp_Lt.ttf");
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Gotham";
   src: url("../font/GothamRoundedBook_21018.ttf");
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Wendy";
-  src: url("../font/WendyLPlig.otf");
+  font-family: "Bradley";
+  src: url("../font/BradleyHandITCStd-Italic.otf");
   font-style: normal;
 }
 
@@ -93,15 +105,15 @@ progress {
 
 
 a {
-    color: inherit;
+    color: #4f4f4f;
     text-decoration: none
 }
 
 
 
 a:hover {
-    color: red  
-}
+    color: rgb(203, 126, 254);
+  }
 
 body {
     background-color: #f0f0f0
@@ -153,13 +165,13 @@ figure {
 }
 
 header {
-    font-family: 'Sabon';
+    font-family: 'Bradley';
     font-size: 30px;
     top: 0;
     position: fixed;
     width: 100%;
+    border-bottom: 1px solid #4f4f4f;
 
-    border-bottom: 1px solid #000
 
 }
 
@@ -192,10 +204,10 @@ header nav div div {
 }
 
 .info {
-  font-family: 'Sabon';
-  font-style: italic;
+  font-family: 'AktivGrotesk';
+  font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
 
 
 }
@@ -226,7 +238,7 @@ display: none;
 }
 
 .radioco-playButton{
-  color: black;
+  color: #4f4f4f;
   z-index: 2;
   font-size:50px;
   display: inline-block; 
@@ -236,7 +248,7 @@ display: none;
 }
 
 .radioco-playButton:active{
-  color:red;
+  color:rgb(203, 126, 254);
 }
 
 .radioco-playButton-playing{
@@ -248,6 +260,8 @@ display: none;
   font-family: "controls";
   font-size: 2rem;
 }
+
+
 /*
 em {
   font-family: 'Sabon';
@@ -304,15 +318,7 @@ aside .barLecture {
 }
 
 em {
-  font-family: 'Sabon';
-  font-style: italic;
-  font-weight: normal;
-  font-size: 30px;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-  line-height: 35px;
-  margin-top: 12px;
-  margin-bottom: 10px;
+color: rgb(203, 126, 254);
 
 }
 
@@ -324,7 +330,8 @@ aside .barLecture div {
 }
 
 aside .barLecture div h1 {
-    font-family: 'Sabon';
+    font-family: 'AktivGrotesk';
+    color: #4f4f4f;
     font-weight: normal;
     font-style: normal;
     font-size: 30px;
@@ -337,7 +344,8 @@ aside .barLecture div h1 {
 }
 
 aside .barLecture div h2 {
-    font-family: 'Sabon';
+    font-family: 'AktivGrotesk';
+        color: #4f4f4f;
     font-size: 18px;
     letter-spacing: 1px;
     word-spacing: 2px;
@@ -352,16 +360,18 @@ aside .active {
     background-color: #f0f0f0;
 }
 
+
+
 /*RIGHT BOX*/
 
 article {
     margin: 0.5rem;
-    font-family: 'Sabon';
+    font-family: 'AktivGrotesk';
+        color: #4f4f4f;
     font-weight: normal;
     font-style: normal; 
     text-align: left;
-    color: black;
-    font-size: 24px;
+    font-size: 19.4px;
     text-transform: none;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -420,7 +430,6 @@ article .lecture {
 article .lead {
     margin-bottom: 30px
 }
-
 
 
 /* ALL COLORS
