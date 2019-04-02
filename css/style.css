@@ -238,7 +238,7 @@ display: none;
 }
 
 .radioco-playButton{
-  color: red;
+  color: #4f4f4f;
   z-index: 2;
   font-size:50px;
   display: inline-block; 
