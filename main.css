@@ -104,6 +104,38 @@ header span:hover {
 	cursor: pointer;
 }
 
+
+#player {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#chaticon {
+position: fixed; 
+	height:54px;
+	width:54px; 
+  top: 20px;
+  right: 320px;
+
+}
+
+#chaticon img
+{
+	height:54px;
+	width:54px; 
+}
+
+
+#chat {
+position: absolute;
+	top:5px;
+	left:5px;
+	right:5px;
+	height:600px;
+	width:400px;
+}
+
 /* M A I N */
 
 main {
