@@ -151,6 +151,7 @@ main {
 /* S E C T I O N */
 
 #info {
+	display: inline-block; 
 	position: absolute;
 	margin: 0;
 	padding: 50px;
@@ -165,6 +166,12 @@ main {
 	border: 1px solid black;
 	border-radius: 50px 50px 0 0;
 	padding: 50px 30px 30px 30px;
+		
+}
+
+#info a {
+
+	display: inline-block; 
 }
 
 #more {
@@ -287,7 +294,7 @@ iframe {
 	position: absolute;
 	top:10px;
 	right:30px;
-	display:block;
+	display:inline-block;
 }
 
 
@@ -308,4 +315,5 @@ iframe#google {
 	padding: 50px 0 0 0;
 	box-sizing: border-box;
 	border: 1px solid black;
+	display:inline-block;
 }
