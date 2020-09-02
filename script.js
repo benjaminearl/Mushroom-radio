@@ -25,7 +25,7 @@ for (i = 0; i < coll.length; i++) {
 // M U S H R O O M S
 
 var timeout;
-document.onmousemove = function(){
+document.onmousemove | document.onscroll = function(){
   clearTimeout(timeout);
   timeout = setTimeout(function(){
     setInterval(function() {
@@ -43,7 +43,7 @@ document.onmousemove = function(){
       mushroom.setAttribute('style', `position: fixed; top: ${heightLocation}px; right: ${widthLocation}px;`);
 
       document.body.appendChild(mushroom);
-    }, 1000);
+    }, 2000);
   }, 10000);
 
     
