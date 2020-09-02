@@ -1,13 +1,14 @@
 /* R E S E T */
 
+* { box-sizing: border-box; }
+
 html {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	margin: 0;
-	padding: 20px;;
+	padding: 20px;
 	overflow-x: hidden;
 	overflow-y: hidden;
 	background-image: url("img/mushroom.jpg");
@@ -25,56 +26,28 @@ body {
 	src: url(fonts/ArialRoundedMTLight.otf);
 }
 
-@font-face {
-	font-family: Schoolbook;
-	src: url(fonts/CenturySchoolbookZT.otf);
-}
-
 h1, h2 {
 	font-family: "Frankfurter";
 	margin: 0px 0px 10px 0px;
+	letter-spacing: 0.25rem;
+	font-size: 26px;
 }
 
 p {
-	font-family: "ArialRounded", Arial, Helvetica, sans-serif;
+	font-family: 'ArialRounded'; sans-serif;
+	font-size: 18px;
+	line-height: 1.45rem;
 	margin: 0;
-}
-
-table {
-	border: 1px solid black;
-	border-collapse: seperate;
-	border-radius: 20px;
-	width: 100%;
-	border-spacing: 0;
-	margin-top: -1px;
-}
-
-th {
-	text-align: left;
-	padding: 10px;
-}
-
-tbody {
-	display: none;
-}
-
-.active {
-	display: table;
-}
-
-td:not(:last-child) {
-	padding: 10px;
-	border-bottom: 1px;
 }
 
 
 .module {
 	background-color: white;
 	border: 1px solid black;
-	width: 30vw;
+	width: 28vw;
 	border-radius: 20px;
 	display: block;
-	padding: 20px;
+	padding: 25px;
 }
 
 #player-wrapper {
@@ -92,14 +65,54 @@ td:not(:last-child) {
 }
 
 #player {
-	width: 25vw;
+	width: 20vw;
 	text-align: center;
 }
 
 audio {
 	display: block;
 	margin: 10px auto;
+	width: 100%;
 }
+
+#chatroom {
+	background-color: black;
+	color: white;
+	padding: 5px 15px 0px 15px;
+}
+
+.collapsible {
+	padding: 10px;
+}
+
+.schedule-content {
+	display: none;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.schedule-content p {
+	padding: 10px;
+	border-top: 1px solid black;
+}
+
+.schedule {
+	border: 1px solid black;
+	border-radius: 20px;
+	width: 100%;
+	margin-top: -1px;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  transition: display 0.2s ease-out;
+}
+
+.highlight {
+	text-decoration: underline;
+}
+
 
 #top-left {
 	float: left;
@@ -128,4 +141,69 @@ audio {
 
 #mobile-info {
 	display: none;
+}
+
+
+@media all and (max-width: 900px) {
+	body {
+		padding: 10px;
+		margin: 0;
+		max-width: 100vw;
+		overflow-x: visible;
+		overflow-y: visible;
+	}
+	#player-wrapper {
+		display: block;
+		height: auto;
+		position: relative;
+		z-index: 0;
+		width: auto;
+	}
+
+	#player {
+		text-align: center;
+		width: auto;
+	}
+	
+	audio {
+		display: block;
+		margin: 10px auto;
+		width: 100%;
+
+	}
+
+	.module {
+		background-color: white;
+		border: 1px solid black;
+		width: auto;
+		border-radius: 20px;
+		display: block;
+		padding: 10px 10px;
+		float: none;
+		margin-bottom: 10px;;
+		overflow-wrap: anywhere;
+	}
+
+	#top-left {
+		float: none;
+	}
+
+	#top-right {
+		float: none;
+	}
+
+	#bottom-right, #bottom-left {
+		position: relative;
+		right: auto;
+		bottom: auto;
+	}
+
+	#bottom-left {
+		display: none;
+	}
+
+	#mobile-info {
+		display: block;
+	}
+
 }

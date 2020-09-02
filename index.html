@@ -11,108 +11,84 @@
   	<meta content="Mushroom Radio" name="keywords">
 
 	<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
+	<div id="container">
 		<div id="player-wrapper">
 			<div id="player" class="module">
 				<p>Listen Live</p>
 				<audio controls>
-					<source src="https://radio.goodtimesbadtimes.club/radio/8010/radio.mp3?1585838877" type="audio/mpeg">
+					<source src="https://streams.radio.co/s969ef89e1/listen" type="audio/mpeg">
 					Your browser does not support the audio element.
 				</audio>
-				<button>
-					<p>Chat Live</p>
-				</button>
+				<a href="chat.html" onclick="window.open('chat.html', 
+                         'newwindow', 
+                         'width=500,height=600'); 
+              return false;"><button id="chatroom">
+					<p>Chat Room</p>
+				</button></a>
 			</div>
 		</div>
 		<div id="top-left" class="module">
 			<h1>Mushroom Radio</h1>
 			<p>Mushroom Radio is a student run radio station from the Royal Academy of Art, The Hague. Initiated with the intention of creating a platform for expression and communication from within the student community.</p>
+			<br>
+			<p>The radio station, initiated by KABK alumni <span class="highlight">Jack Bardwell</span>, <span class="highlight">Ben Earl</span> and <span class="highlight">Esther Vane</span> was set up as a research tool that eventually developed into a platform for students to use and discuss topics as they will.</p>
 		</div>
 		<div id="mobile-info" class="module">
 			<h2>KABK Graduation Show 2020</h2>
-			<p>During the KABK’s Graduation Show 2020, Mushroom Radio will be broadcasting a special four day programme that features interviews, music, performance and student work.</p>
+			<p>Mushroom Radio will be hosting a special 4-day broadcast to cover the KABK's graduation show this year. We will be putting together a programme that will explore the show through interviews, games, lectures, performances and more!</p>
 		</div>
 		<div id="top-right" class="module">
 			<h1>Schedule</h1>
 			<p>10th–13th September, 10:00–18:00</p>
-			<table>
-    			<thead class="collapsible">
-        			<tr>
-           				 <th colspan="2"><p>Thursday 10th</p></th>
-        			</tr>
-    			</thead>
-    			<tbody>
-        			<tr>
-            			<td>Introduction</td>
-            			<td>12:00–13:00</td>
-        			</tr>
-					<tr>
-						<td>Audio Tour</td>
-						<td>13:00–13:45</td>
-					</tr>
-    			</tbody>
-			</table>
-			<table>
-    			<thead class="collapsible">
-        			<tr>
-           				 <th colspan="2"><p>Friday 11th</p></th>
-        			</tr>
-    			</thead>
-    			<tbody>
-        			<tr>
-            			<td>Introduction</td>
-            			<td>12:00–13:00</td>
-        			</tr>
-					<tr>
-						<td>Audio Tour</td>
-						<td>13:00–13:45</td>
-					</tr>
-    			</tbody>
-			</table>
-			<table>
-    			<thead class="collapsible">
-        			<tr>
-           				 <th colspan="2"><p>Saturday 12th</p></th>
-        			</tr>
-    			</thead>
-    			<tbody>
-        			<tr>
-            			<td>Introduction</td>
-            			<td>12:00–13:00</td>
-        			</tr>
-					<tr>
-						<td>Audio Tour</td>
-						<td>13:00–13:45</td>
-					</tr>
-    			</tbody>
-			</table>
-			<table>
-    			<thead class="collapsible">
-        			<tr>
-           				 <th colspan="2"><p>Sunday 13th</p></th>
-        			</tr>
-    			</thead>
-    			<tbody>
-        			<tr>
-            			<td>Introduction</td>
-            			<td>12:00–13:00</td>
-        			</tr>
-					<tr>
-						<td>Audio Tour</td>
-						<td>13:00–13:45</td>
-					</tr>
-    			</tbody>
-			</table>
+			<div class="schedule">
+				<div class="collapsible">
+					<p>Thursday 10th</p>
+				</div>
+				<div class="schedule-content">
+					<p>TBA</p>
+					<p>11:00–18:00</p>
+				</div>
+			</div>
+			<div class="schedule">
+				<div class="collapsible">
+					<p>Friday 11th</p>
+				</div>
+				<div class="schedule-content">
+					<p>TBA</p>
+					<p>11:00–18:00</p>
+				</div>
+			</div>
+			<div class="schedule">
+				<div class="collapsible">
+					<p>Saturday 12th</p>
+				</div>
+				<div class="schedule-content">
+					<p>TBA</p>
+					<p>11:00–18:00</p>
+				</div>
+			</div>
+			<div class="schedule">
+				<div class="collapsible">
+					<p>Sunday 13th</p>
+				</div>
+				<div class="schedule-content">
+					<p>TBA</p>
+					<p>11:00–18:00</p>
+				</div>
+			</div>
 		</div>
 		<div id="bottom-left" class="module">
 			<h1>KABK Graduation Show 2020</h1>
-			<p>During the KABK’s Graduation Show 2020, Mushroom Radio will be broadcasting a special four day programme that features interviews, music, performance and student work. </p>
+			<p>Mushroom Radio will be hosting a special 4-day broadcast to cover the KABK's graduation show this year. We will be putting together a programme that will explore the show through interviews, games, lectures, performances and more!</p>
 		</div>
 		<div id="bottom-right" class="module">
-			<p>Mushroom Radio is a project By Jack Bardwell, Esther Vane and Benjamin Earl. Hosts of the show are …….. and the sound engineers are ……</p>
+			<p>To create a digital guide to the graduation show we will be running Mushroom Radio together with the following students: <span class="highlight">Milu Chen & Myra van der Veen</span>, <span class="highlight">Pum van de Koppel & Kelvin Dijk</span>, <span class="highlight">Lena Longefay & Omid Kheirabadi</span>, <span class="highlight">Hannah Mulqueen  & Leo Scarin</span>, <span class="highlight">Guenn Gustina</span> and <span class="highlight">Farzane Noori</span>. </p>
+		</div>
 		</div>
 		<script src="script.js"></script>
 	</body>
