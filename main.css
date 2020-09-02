@@ -40,10 +40,6 @@ p {
 	margin: 0;
 }
 
-#container {
-	padding-left: 20px;
-}
-
 
 .module {
 	background-color: white;
@@ -138,7 +134,7 @@ audio {
 }
 
 #bottom-right {
-	right: 0px;
+	right: 20px;
 	position: absolute;
 	bottom: 20px;
 }
@@ -156,11 +152,6 @@ audio {
 		overflow-x: visible;
 		overflow-y: visible;
 	}
-
-	#container {
-		padding-left: 0;
-	}
-	
 	#player-wrapper {
 		display: block;
 		height: auto;
