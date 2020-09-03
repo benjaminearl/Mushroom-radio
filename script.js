@@ -25,7 +25,7 @@ for (i = 0; i < coll.length; i++) {
 // M U S H R O O M S
 
 var timeout;
-document.onmousemove | document.onscroll = function(){
+document.onmousemove = function(){
   clearTimeout(timeout);
   timeout = setTimeout(function(){
     setInterval(function() {
