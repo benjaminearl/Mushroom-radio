@@ -40,6 +40,20 @@ p {
 	margin: 0;
 }
 
+ul {
+	list-style: none;
+	padding-left: 0;
+	font-family: 'ArialRounded'; sans-serif;
+}
+
+li a {
+	color: black;
+}
+
+li a:hover {
+	color: red;
+}
+
 
 .module {
 	background-color: white;
