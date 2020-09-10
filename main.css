@@ -230,4 +230,20 @@ audio {
 		display: block;
 	}
 
+	.collapsible {
+		padding: 10px;
+		position: relative;
+		top: 0;
+		background-color: white;
+		filter: drop-shadow(0 0 0.15rem black);
+	}
+
+	.schedule {
+		border: 1px solid black;
+		border-radius: 20px;
+		width: 100%;
+		margin-top: -1px;
+		max-height: auto;
+		}
+
 }
