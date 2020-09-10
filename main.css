@@ -214,6 +214,8 @@ audio {
 
 	#top-right {
 		float: none;
+		max-height: none;
+		height: auto;
 	}
 
 	#bottom-right, #bottom-left {
@@ -243,7 +245,8 @@ audio {
 		border-radius: 20px;
 		width: 100%;
 		margin-top: -1px;
-		max-height: auto;
+		max-height: inherit;
+		overflow: auto;
 		}
 
 }
