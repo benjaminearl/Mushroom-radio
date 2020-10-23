@@ -161,6 +161,10 @@ audio {
 	bottom: 20px;
 }
 
+#bottom-right a {
+	text-decoration:none;
+}
+
 #mobile-info {
 	display: none;
 }
