@@ -12,7 +12,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: hidden;
 	background-repeat: no-repeat;
-	background-position: 50% -75%;
+	background-position: 50% -65%;
 	background-image: url("img/poster_jules.jpg");
 	background-size: 50vh;
 }
@@ -84,6 +84,7 @@ li a:hover {
 #player {
 	width: 20vw;
 	text-align: center;
+	margin-top: 1000px;
 }
 
 audio {
