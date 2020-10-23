@@ -12,8 +12,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: hidden;
 	background-repeat: no-repeat;
-	background-position-x: center;
-	background-position-y: center bottom;
+	background-position: 50% -50%;
 	background-image: url("img/poster_jules.jpg");
 	background-size: 50vh;
 }
