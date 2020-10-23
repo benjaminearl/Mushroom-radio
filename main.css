@@ -75,7 +75,7 @@ li a:hover {
 	align-items: center;
 	-webkit-justify-content: center;
 	justify-content: center;
-	height: 100vh;
+	height: 20vh;
 	width: 100vw;
 	position: absolute;
 	z-index: -10;
@@ -84,7 +84,6 @@ li a:hover {
 #player {
 	width: 20vw;
 	text-align: center;
-	margin-top: 1000px;
 }
 
 audio {
