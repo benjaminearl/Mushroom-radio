@@ -252,5 +252,10 @@ audio {
 		max-height: inherit;
 		overflow: auto;
 		}
+	
+	mark 	  {
+  		background-color: LightPink;
+  		color: black;
+		}
 
 }
