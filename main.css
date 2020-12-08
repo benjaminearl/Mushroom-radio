@@ -257,5 +257,9 @@ audio {
   		background-color: LightPink;
   		color: black;
 		}
+	
+	a, #bottom-right {
+		color: navy;
+		}
 
 }
