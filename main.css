@@ -258,7 +258,7 @@ audio {
   		color: black;
 		}
 	
-	a, #bottom-right {
+	a & #bottom-right {
 		color: navy;
 		}
 
