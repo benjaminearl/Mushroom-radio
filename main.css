@@ -171,6 +171,15 @@ audio {
 	display: none;
 }
 
+mark 	  {
+  	background-color: LightPink;
+  	color: black;
+}
+	
+a & #bottom-right {
+	color: navy;
+}
+
 
 @media all and (max-width: 900px) {
 	body {
@@ -251,15 +260,6 @@ audio {
 		margin-top: -1px;
 		max-height: inherit;
 		overflow: auto;
-		}
-	
-	mark 	  {
-  		background-color: LightPink;
-  		color: black;
-		}
-	
-	a & #bottom-right {
-		color: navy;
 		}
 
 }
