@@ -17,11 +17,11 @@ body {
 
 img.bg {
  position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
+    min-width: 10%;
+    min-height: 10%;
+    width: 900px;
     height: auto;
     z-index: -200;
     -ms-transform: translateX(-50%) translateY(-50%);
