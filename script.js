@@ -43,7 +43,7 @@ document.onmousemove = function(){
       mushroom.setAttribute('style', `position: fixed; top: ${heightLocation}px; right: ${widthLocation}px;`);
 
       document.body.appendChild(mushroom);
-    }, 2000);
+    }, 7000);
   }, 10000);
 
     
