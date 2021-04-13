@@ -102,7 +102,7 @@ li a:hover {
 	height: top;
 	width: 100vw;
 	position: absolute;
-	z-index: -10;
+	z-index: 10;
 }
 
 #player {
