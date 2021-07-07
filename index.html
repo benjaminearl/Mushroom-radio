@@ -1,77 +1,90 @@
 <!DOCTYPE html>
-	<head>
-	<html lang="en">
-	<Title>Mushroom Radio</Title>
+<html lang="en">
+
+<head>
+	<title>Mushroom Radio</title>
 	<meta charset="UTF-8">
 	<meta name="robots" content="noindex">
 	<meta name="googlebot" content="noindex">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Mushroom Radio">
 	<meta content="Mushroom Radio" name="description">
-  	<meta content="Mushroom Radio" name="keywords">
+	<meta content="Mushroom Radio" name="keywords">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-	<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="main.css">
-	</head>
-	<body>
-
-		<!--BACKGROUND IMAGE-->
-		
-
-	<div id="container">
-
-		<!-- <img src="img/mar_background_image.jpg" class="bg"> -->
-		
-		<div id="player-wrapper">
-			<div id="player" class="module">
-				<p>Listen Live</p>
-				<audio controls>
-					<source src="https://radio.goodtimesbadtimes.club/radio/8020/radio.mp3" type="audio/mpeg">
-					Your browser does not support the audio element.
-				</audio>
-				<a href="chat.html" onclick="window.open('chat.html', 
-                         'newwindow', 
-                         'width=500,height=600'); 
-              return false;"><button id="chatroom">
-					<p>Chat Room</p>
-				</button></a>
+<body>
+	<header>
+		<div class="row">
+			<div class="col-sm-6" id="logo">
+				<img src="logo_v2.png"></img>
 			</div>
+			<div class="col-sm-6" id="description"><span class="sans20">The radio station, initiated by KABK alumni Jack Bardwell, Benjamin Earl and Esther Vane was set up as a research tool that eventually developed into a platform for students to use and discuss topics as they will.<br><br><a href="mailto:contact.mushroomradio@gmail.com">Email</a></br><a href="https://www.instagram.com/mushroomradio/" target="_blank">Instagram</a></span>
 		</div>
-		<div id="top-left" class="module">
-			<h1>Mushroom Radio</h1>
-			<p>Mushroom Radio will be re-streaming a conversation about...Why Care about Palestine? What does it have to do with us in the Netherlands? What does it have to do with art Education?</p>
-			<br>
-			<p>The radio station, initiated by KABK alumni <span class="highlight">Jack Bardwell</span>, <span class="highlight">Benjamin Earl</span> and <span class="highlight">Esther Vane</span> was set up as a research tool that eventually developed into a platform for students to use and discuss topics as they will.</p>
-			<ul>
-				<li><a href="https://www.instagram.com/mushroomradio/">Instagram</a></li>
-				<li><a href="mailto:contact.mushroomradio@gmail.com">Email</a></li>
-			</ul>
+	</header>
+
+	<main>
+		<div class="container-fluid">
+		  <div class="row">
+		    <div class="col-sm content">
+		      <img src="titles_1.png"></img>
+					<br>
+					<audio controls="">
+						<source src="https://radio.goodtimesbadtimes.club/radio/8020/radio.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
+					<br><br><br>
+					<img src="titles_2.png"></img>
+					<br><script id="cid0020000286654751781" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 75%;">{"handle":"mushroomradiochat","arch":"js","styles":{"a":"7d8ce0","b":100,"c":"bff592","d":"bff592","e":"bac2f2","g":"636363","h":"bac2f2","j":"636363","k":"bac2f2","l":"bac2f2","m":"bac2f2","p":"10","q":"bac2f2","r":100,"sbc":"bff592","cnrs":"1","fwtickm":1}}</script>
+		    </div>
+		    <div class="col-sm content sans25 programme">
+		      <img src="titles_4.png"></img>
+					/*CHANGE PROGRAMME INFO HERE*/
+					<br>
+					<b>11:00–11:15</b> Introduction by Cami and Petra
+					<br>
+					<b>11:15–11:45</b> In conversation with Ada Popowicz
+					<br>
+					<b>11:45–12:00</b> Interlude
+					<br>
+					<b>12:00–12:45</b> sWitchess
+					<br>
+					<b>12:45–13:15</b> DJ set by Karoliina Pärnänen
+					<br>
+					<b>13:15–13:30</b> Interlude
+					<br>
+					<b>13:30–14:00</b> Death Cafe with Ivi Apostolatos
+					<br>
+					<b>14:00–14:30</b> Lunch Tunes with Leo Scarin
+					<br>
+					<b>14:30–14:45</b> Interlude
+					<br>
+					<b>14:45–15:30</b> First Cut
+					<br>
+					<b>15:30–16:00</b> Non Neurotypical Art Students
+					<br>
+					<b>16:00–17:00</b> The Research Question hosted by Alice Twemlow
+					<br>Tutor (GD) Katrin Korfmann in conversation with Anke Sondi (BA Graphic Design)
+					<br>Tutor (GD) Hannes Bernard in conversation with Dominik Vrabic (BA Graphic Design)
+					<br>
+					<b>17:00–17:15</b> Interlude & saying goodbye
+					<br><b>17:15–18:00</b> Closing tunes with Piet Verkleij
+					<br>
+		    </div>
+		    <div class="col-sm hostinfo">
+					/*CHANGE IMAGE HERE FOR HOSTS*/
+		      <img src="july_8th.png"></img>
+		    </div>
+		  </div>
 		</div>
-	
-		<div id="top-right" class="module">
-			<h1>Radio Workshop with MAR & MAPS</h1>
-			<p>Mushroom Radio will be running two day long workshops on June 1st and 3rd with Masters Artistic Research and Masters Photography and Society. Between 17:00 – 18:00 we will broadcast the results, tune in to find out what the students have been up to! 
-			<br>
-			</p>
+	</main>
 
-		</div>
 
-		<div id="bottom-left" class="module">
-			<h1>Mushroom Archive</h1>
-			<p>Find some of our previous episodes on our <a href="https://www.mixcloud.com/mushroomradio/">Mixcloud!</a></p>
-		</div>
 
-		<div id="bottom-right" class="module">
-			<h1> Want to make radio?</h1>
-			<p>Please get in touch. If you are a student at the KABK then this is yours. contact.mushroomradio@gmail.com</p>
-		</div>
-	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 
-		
-		<script src="script.js"></script>
-
-	</body>
-	</html
-
+</html>
