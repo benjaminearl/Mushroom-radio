@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Authentic Sans 90";
+  src: url("AUTHENTICSans-90.woff") format("woff");
+}
+
+.sans20 {
+  font-size: 1.2em;
+  line-height: 0.9em;
+}
+
+.sans25 {
+  font-size: 1.2rem;
+  line-height: 1.2em;
+}
+
+html {
+  overflow-x: hidden;
+  background-color: #d9d9d9;
+}
+
+header {
+  background-color: #d9d9d9;
+  font-family: "Authentic Sans 90";
+}
+
+a:link {
+  color: #7d8ce0;
+}
+
+a:hover, a:active, a:visited {
+  color: #c9f5a3;
+}
+
+#logo {
+  padding: 1%;
+}
+
+#logo img {
+  width: 100%;
+}
+
+#description {
+  width: 47%;
+  background-color: #bac2f2;
+  color: #7d8ce0;
+  border-radius: 25px;
+  margin: 1%;
+  padding: 1%;
+}
+
+main {
+  width: 100%;
+  background-color: #d9d9d9;
+}
+
+audio {
+  width: 100%;
+  background-color: transparent;
+  padding: 1%;
+}
+
+.col-sm {
+  background-color: #7d8ce0;
+  border-radius: 25px;
+  margin: 1%;
+  font-family: "Authentic Sans 90";
+  color: #d9d9d9;
+}
+
+.content img {
+  width: 12em;
+}
+
+.programme img {
+  width: 20em;
+}
+
+.hostinfo img {
+  width: 100%;
+  padding: 2%;
+}
+
+b {
+  color: #c9f5a3;
+}
+
+@media screen and (max-width: 600px) {
+  #description {
+    width: 92%;
+    position: relative;
+    left: 3%;
+    padding: 2.5%;
+  }
+}
