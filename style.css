@@ -6,9 +6,9 @@
 * {
   box-sizing: border-box;
   outline: none;
-    --colororange: #ff6600;
-    --colorlila: #beb3f7;
-    --colorpurple: #6158b2;
+    --colororange: #f5e923;
+    --colorlila: #1796bf;
+    --colorpurple: #000000;
   padding: 0;
   margin: 0;
   }
@@ -33,7 +33,7 @@
 
 body{
   color: var(--colorpurple);
-  background-color: var(--colorlila);
+  background: linear-gradient(var(--colorlila) 80%, var(--colororange) 100%);
   font-family: "Authentic Sans 90", sans-serif;
   margin: 0;
   padding-left: 5%;
@@ -41,6 +41,7 @@ body{
   display: inline-block;
   font-size: 1.2em;
   line-height: 1.1em;
+  height: 100vh;
 }
 
 h1{
