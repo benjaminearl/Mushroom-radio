@@ -41,7 +41,7 @@ body{
   display: inline-block;
   font-size: 1.2em;
   line-height: 1.1em;
-  height: 100vh;
+  min-height: 50vh;
 }
 
 h1{
