@@ -2,6 +2,10 @@
   font-family: "Authentic Sans 90";
   src: url("./fonts/AUTHENTICSans-90.woff") format("woff");
 }
+@font-face {
+  font-family:"Basteleur Bold";
+  src: url("./fonts/Basteleur-Bold.otf") format("otf");
+}
 
 * {
   box-sizing: border-box;
@@ -56,10 +60,19 @@ body{
 }
 
 h1{
+  font-family:"Basteleur Bold",Garamond;
   color: var(--colororange);
   font-size: 1.8em;
   line-height: 1em;
   margin-bottom: 0.4rem;
+}
+
+h2{
+  font-family:"Basteleur Bold",Garamond;
+  color: var(--colorpurple2);
+  font-size: 5em;
+  line-height: 1em;
+  /* margin-bottom: 0.4rem; */
 }
 
 .row {
@@ -81,11 +94,6 @@ h1{
   padding: 16px;
 }
 
-/* hr {
-  margin-top: 0.2rem;
-  margin-bottom: 0.4rem;
-  border-top: 0.1px solid var(--colorlila);
-} */
 
 a:link {
   color: var(--colorpurple2);
@@ -123,7 +131,6 @@ li{
 
 .top .col img {
   width: 100%;
-  /* max-width: 600px; */
 }
 
 .bottom .col .box {
