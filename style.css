@@ -6,11 +6,16 @@
 * {
   box-sizing: border-box;
   outline: none;
-    --colororange: #f5e923;
-    --colorlila: #1796bf;
-    --colorpurple: #000000;
+  --colororange: #ffdb11;
+  --colorlila: #f0e4d8;
+  --colorpurple: #ff4949;
+  --colorpurple2: #7f35ff;
   padding: 0;
   margin: 0;
+  /* border: var(--colorpurple) solid  1px; */
+  }
+  .s1{
+    width: 100%;
   }
 
 .s2{
@@ -21,15 +26,20 @@
   width: 33.3332%;
 }
 
-/* .c1 .box{
-  background: #ff6600;
-  color: #6158b2;
+.s4{
+  width: 66.6667%;
 }
 
-.c1 h1{
-  background: #ff6600;
-  color: #6158b2;
-} */
+.box.listen{
+  background: var(--colorpurple2);
+  margin-bottom: 16px;
+}
+
+.timetable{
+position: -webkit-sticky;
+position: sticky;
+top: 0px;
+}
 
 body{
   color: var(--colorpurple);
@@ -71,17 +81,40 @@ h1{
   padding: 16px;
 }
 
+/* hr {
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+  border-top: 0.1px solid var(--colorlila);
+} */
+
 a:link {
-  color: var(--colorpurple);
+  color: var(--colorpurple2);
 }
 
 a:hover, a:active, a:visited {
-  color: var(--colororange);
+  color: var(--colorpurple);
 }
 
 .time{
-  color: var(--colororange);
+  border-top: solid var(--colorlila)  2px;
+  padding-top: 0.2rem;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
 }
+
+.current {
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+  /* color: var(--colororange); */
+}
+li{
+  transition: 0.3s;
+}
+/* li:hover{
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+  color: var(--colororange);
+} */
 
 .top .col {
   background-color: var(--colorlila);
@@ -89,12 +122,12 @@ a:hover, a:active, a:visited {
 }
 
 .top .col img {
-  width: 100%;
+  width: 50%;
   max-width: 600px;
 }
 
 .bottom .col .box {
-  height: 620px;
+min-height: 400px;
 }
 
 ul {list-style:none}
@@ -115,7 +148,7 @@ audio{
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: var(--colorpurple);
+  background-color: var(--colorpurple2);
   padding: 0px;
 }
 audio::-webkit-media-controls-current-time-display {
@@ -127,15 +160,15 @@ audio::-webkit-media-controls-timeline {
 }
 
 audio::-webkit-media-controls-play-button {
-  background-color: var(--colororange);
+  background-color: var(--colorpurple);
   border-radius: 50%;
 }
 
 audio::-webkit-media-controls-play-button:hover {
-  background-color: var(--colororange);
+  background-color: var(--colorpurple);
 }
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
   body{
     padding-left: 8px;
     padding-right: 8px;
@@ -169,4 +202,4 @@ audio::-webkit-media-controls-play-button:hover {
   .bottom .col .box {
     height: auto;
   }
-}
+} */
