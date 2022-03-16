@@ -168,25 +168,25 @@ audio::-webkit-media-controls-play-button:hover {
   background-color: var(--colorpurple);
 }
 
-/* @media screen and (max-width: 1100px) {
+ @media screen and (max-width: 1000px) {
   body{
-    padding-left: 8px;
+    padding-left: 16px;
     padding-right: 8px;
   }
-  .c1.s3 {
-    width: 100%;
-  }
-
-  .s3 {
-    width: 50%;
-  }
-
-  .bottom .col .box {
-    height: auto;
-  }
+.s3{
+  width:100%;
+}
+.s4{
+  width:100%;
 }
 
-@media screen and (max-width: 700px) {
+.timetable{
+  position: relative;
+  }
+
+}
+
+/* @media screen and (max-width: 700px) {
   body{
     padding-left: 8px;
     padding-right: 8px;
