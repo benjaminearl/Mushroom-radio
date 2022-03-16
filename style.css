@@ -168,7 +168,7 @@ audio::-webkit-media-controls-play-button:hover {
   background-color: var(--colorpurple);
 }
 
- @media screen and (max-width: 1000px) {
+ @media screen and (max-width: 1100px) {
   body{
     padding-left: 16px;
     padding-right: 8px;
