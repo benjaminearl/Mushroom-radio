@@ -10,9 +10,9 @@
 * {
   box-sizing: border-box;
   outline: none;
-  --colororange: #ffdb11;
-  --colorlila: #f0e4d8;
-  --colorpurple: #ff4949;
+  --colororange: #3200ff;
+  --colorlila: #9adeff;
+  --colorpurple: #000000;
   --colorpurple2: #7f35ff;
   padding: 0;
   margin: 0;
