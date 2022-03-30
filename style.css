@@ -8,16 +8,18 @@
 }
 
 * {
+  /* use these varibles to change colors on the whole page */
+  --color1: #ffddc1;
+  --color2: #b1b4ff;
+  --color3: #ff2249;
+  --color4: #874040;
+
   box-sizing: border-box;
   outline: none;
-  --colororange: #3200ff;
-  --colorlila: #9adeff;
-  --colorpurple: #000000;
-  --colorpurple2: #7f35ff;
   padding: 0;
   margin: 0;
-  /* border: var(--colorpurple) solid  1px; */
   }
+
   .s1{
     width: 100%;
   }
@@ -35,7 +37,7 @@
 }
 
 .box.listen{
-  background: var(--colorpurple2);
+  background: var(--color4);
   margin-bottom: 16px;
 }
 
@@ -46,8 +48,8 @@ top: 0px;
 }
 
 body{
-  color: var(--colorpurple);
-  background: linear-gradient(var(--colorlila) 80%, var(--colororange) 100%);
+  color: var(--color3);
+  background: linear-gradient(var(--color2) 80%, var(--color1) 100%);
   font-family: "Authentic Sans 90", sans-serif;
   margin: 0;
   padding-left: 5%;
@@ -60,19 +62,18 @@ body{
 }
 
 h1{
-  font-family:"Basteleur Bold",Garamond;
-  color: var(--colororange);
+  font-family:"Basteleur Bold","Authentic Sans 90", Garamond;
+  color: var(--color1);
   font-size: 1.8em;
   line-height: 1em;
   margin-bottom: 0.4rem;
 }
 
 h2{
-  font-family:"Basteleur Bold",Garamond;
-  color: var(--colorpurple2);
-  font-size: 5em;
+  font-family:"Basteleur Bold","Authentic Sans 90", Garamond;
+  color: var(--color4);
+  font-size: max(6vw, 3em);
   line-height: 1em;
-  /* margin-bottom: 0.4rem; */
 }
 
 .row {
@@ -89,22 +90,27 @@ h2{
   overflow: hidden;
   border-radius: 25px;
   padding: 10px;
-  color: var(--colorlila);
-  background-color: var(--colorpurple);
+  color: var(--color2);
+  background-color: var(--color3);
   padding: 16px;
+}
+
+.imagetop{
+  border-radius:16px;
+  width:100%;
 }
 
 
 a:link {
-  color: var(--colorpurple2);
+  color: var(--color4);
 }
 
 a:hover, a:active, a:visited {
-  color: var(--colorpurple);
+  color: var(--color3);
 }
 
 .time{
-  border-top: solid var(--colorlila)  2px;
+  border-top: solid var(--color4)  2px;
   padding-top: 0.2rem;
   margin-top: 0.4rem;
   font-size: 0.8rem;
@@ -113,20 +119,16 @@ a:hover, a:active, a:visited {
 .current {
   font-size: 1.6rem;
   line-height: 1.7rem;
-  /* color: var(--colororange); */
+  /* color: var(--color1); */
 }
+
 li{
+  color: var(--color1);
   transition: 0.3s;
 }
-/* li:hover{
-  font-size: 1.6rem;
-  line-height: 1.7rem;
-  color: var(--colororange);
-} */
 
 .top .col {
-  background-color: var(--colorlila);
-  color: var(--colorpurple);
+  color: var(--color3);
 }
 
 .top .col img {
@@ -155,7 +157,7 @@ audio{
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: var(--colorpurple2);
+  background-color: var(--color4);
   padding: 0px;
 }
 audio::-webkit-media-controls-current-time-display {
@@ -167,15 +169,16 @@ audio::-webkit-media-controls-timeline {
 }
 
 audio::-webkit-media-controls-play-button {
-  background-color: var(--colorpurple);
+  background-color: var(--color3);
   border-radius: 50%;
 }
 
 audio::-webkit-media-controls-play-button:hover {
-  background-color: var(--colorpurple);
+  background-color: var(--color3);
 }
 
- @media screen and (max-width: 1100px) {
+
+@media screen and (max-width: 1100px) {
   body{
     padding-left: 16px;
     padding-right: 8px;
