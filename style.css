@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family:"Basteleur Bold";
-  src: url("./fonts/Basteleur-Bold.otf") format("otf");
+  src: url("./fonts/Basteleur-Bold.otf") format("opentype");
 }
 
 * {
