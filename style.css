@@ -10,10 +10,10 @@
 
 * {
   /* use these varibles to change colors on the whole page */
-  --color1: #ffddc1;
-  --color2: #b1b4ff;
-  --color3: #ff4949;
-  --color4: #874040;
+  --color1: #fbffc1;
+  --color2: #b1e1ff;
+  --color3: #773065;
+  --color4: #d49100;
 
   box-sizing: border-box;
   outline: none;
