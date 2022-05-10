@@ -10,10 +10,10 @@
 
 * {
   /* use these varibles to change colors on the whole page */
-  --color1: #fbffc1;
-  --color2: #b1e1ff;
-  --color3: #773065;
-  --color4: #d49100;
+  --color1: #fdf3bd;
+  --color2: #9325ff;
+  --color3: #ff85f7;
+  --color4: #ff2e1d;
 
   box-sizing: border-box;
   outline: none;
@@ -46,7 +46,7 @@ body {
   padding-right: 5%;
   display: inline-block;
   font-size: 1.2em;
-  line-height: 1.1em;
+  line-height: 1.5rem;
   min-height: 50vh;
   background-attachment: fixed;
 }
@@ -61,7 +61,7 @@ h1 {
 
 h2 {
   font-family: "Basteleur Bold", "Authentic Sans 90", Garamond;
-  color: var(--color4);
+  color: var(--color1);
   font-size: max(6vw, 3em);
   line-height: 1em;
 }
@@ -80,7 +80,7 @@ h2 {
   overflow: hidden;
   border-radius: 25px;
   padding: 10px;
-  color: var(--color2);
+  /* color: var(--color2); */
   background-color: var(--color3);
   padding: 16px;
 }
