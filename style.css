@@ -99,6 +99,21 @@ padding-left:5px;
 
   }
 
+  @keyframes airing {
+    0% {
+      filter:none;
+    }
+    50% {
+      filter: grayscale(1) brightness(1.5);
+  }
+  100% {
+    filter:none;
+  }
+  }
+  .airing {
+    animation: airing 1.5s step-end infinite;
+  }
+  
 /************************************************ MOBILE ONLY ***********/
 
 @media only screen and (max-width: 600px) {
@@ -120,19 +135,4 @@ padding-left:5px;
   .subtitle {
     font-size: 1.5em;
   }
-}
-
-@keyframes airing {
-  0% {
-    filter:none;
-  }
-  50% {
-    filter: grayscale(1) brightness(1.5);
-}
-100% {
-  filter:none;
-}
-}
-.airing {
-  animation: airing 1.5s step-end infinite;
 }
