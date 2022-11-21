@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Milford;
+  src: url("./fonts/Milford.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Milford;
+  src: url("./fonts/MilfordBold.woff");
+  font-weight: 600;
+}
+
+* {
+  /* use these varibles to change colors on the whole page */
+  --red: #EF3050;
+
+  box-sizing: border-box;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background: var(--red);
+  color: #FFF;
+}
+
+html {
+  color: var(--red);
+  background: white;
+  font-family: Milford, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 5%;
+  max-width: 760px;
+  font-size: 1.2em;
+  line-height: 1.28;
+  letter-spacing: -0.8px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: var(--red);
+  
+}
+
+a:hover {
+  cursor: pointer;
+  opacity:0.7;
+}
+
+hr {
+  border: .5px inset #999999;
+  margin: 2em 0 2em 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header img {
+    height: 50px;
+}
+header #wordmark {
+padding-left:5px;
+}
+
+#title-section {
+  text-align:center;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+  }
+
+.title {
+    font-weight: 600;
+    font-size: 7em;
+    letter-spacing: -10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+.subtitle {
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke-width: 1.2px;
+      -webkit-text-stroke-color: var(--red);
+      font-size: 2em;
+      line-height: 1.1em;
+      margin-block-start: 0;
+      margin-block-end: 0;
+
+  }
+
+  @keyframes airing {
+    0% {
+      filter:none;
+    }
+    50% {
+      filter: grayscale(1) brightness(1.5);
+  }
+  100% {
+    filter:none;
+  }
+  }
+  .airing {
+    animation: airing 1.5s step-end infinite;
+  }
+  
+/************************************************ MOBILE ONLY ***********/
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  header img {
+    height: auto;
+    width: 100%;
+  }
+  header #wordmark {
+    padding-top: 10px;
+    padding-left:0;
+  }
+  .title {
+    font-size: 4em;
+    letter-spacing: -5px;
+  }
+  .subtitle {
+    font-size: 1.5em;
+  }
+}
